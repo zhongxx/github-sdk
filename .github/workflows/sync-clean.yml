@@ -18,7 +18,10 @@ jobs:
       - name: Checkout full history (all branches + tags)
         uses: actions/checkout@v5   # v5 runs on Node 24 (no deprecation warning)
         with:
-          fetch-depth: 0   # full history, not a shallow clone
+          fetch-depth: 0              # full history, not a shallow clone
+          persist-credentials: false  # IMPORTANT: don't store the github-actions[bot]
+                                       # token in git config; otherwise it overrides our
+                                       # PAT on every github.com push and you get 403.
 
       - name: Rewrite authors + scrub kinfey, then push to github-sdk
         env:
@@ -36,6 +39,9 @@ jobs:
             echo "ERROR: SYNC_TOKEN secret is not set. Add a PAT with write access to github-sdk."
             exit 1
           fi
+
+          # Belt-and-suspenders: drop any leftover Authorization header for github.com.
+          git config --unset-all http.https://github.com/.extraheader 2>/dev/null || true
 
           # Make sure we have every branch as a local branch so all get rewritten.
           git fetch origin '+refs/heads/*:refs/remotes/origin/*'
@@ -66,6 +72,8 @@ jobs:
           echo "CLEAN"
 
           # Push the cleaned heads + tags to the target repo, force (history is rewritten).
+          # The PAT is embedded directly in the remote URL; with persist-credentials:false
+          # above, this is the only credential git will use.
           git remote add target "https://x-access-token:${SYNC_TOKEN}@${TARGET}"
           git push --force --all target
           git push --force --tags target
