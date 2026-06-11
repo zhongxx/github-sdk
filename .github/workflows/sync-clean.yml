@@ -1,0 +1,74 @@
+name: Sync clean copy to github-sdk
+
+# Runs on every push to this (github-sdk-workshop) repo, plus manual trigger.
+on:
+  push:
+    branches: ["**"]
+  workflow_dispatch:
+
+# Prevent overlapping runs from racing on the force-push.
+concurrency:
+  group: sync-clean
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout full history (all branches + tags)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history, not a shallow clone
+
+      - name: Rewrite authors + scrub kinfey, then push to github-sdk
+        env:
+          # A Personal Access Token with write access to ITD-NextDimension/github-sdk.
+          # Add it under: this repo > Settings > Secrets and variables > Actions > New repository secret
+          # Name it exactly:  SYNC_TOKEN
+          SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
+          NEW_NAME: "TarryWang"
+          NEW_EMAIL: "tarryesc@hotmail.com"
+          TARGET: "github.com/ITD-NextDimension/github-sdk.git"
+        run: |
+          set -euo pipefail
+
+          if [ -z "${SYNC_TOKEN}" ]; then
+            echo "ERROR: SYNC_TOKEN secret is not set. Add a PAT with write access to github-sdk."
+            exit 1
+          fi
+
+          # Make sure we have every branch as a local branch so all get rewritten.
+          git fetch origin '+refs/heads/*:refs/remotes/origin/*'
+          for b in $(git branch -r | grep -v 'HEAD' | sed 's|origin/||'); do
+            git branch --track "$b" "origin/$b" 2>/dev/null || true
+          done
+
+          echo "=== authors BEFORE ==="
+          git log --all --format='%an <%ae>' | sort | uniq -c
+
+          # Built-in git filter-branch: change author+committer, scrub "kinfey" from messages.
+          FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch -f \
+            --env-filter "
+          export GIT_AUTHOR_NAME=\"$NEW_NAME\"
+          export GIT_AUTHOR_EMAIL=\"$NEW_EMAIL\"
+          export GIT_COMMITTER_NAME=\"$NEW_NAME\"
+          export GIT_COMMITTER_EMAIL=\"$NEW_EMAIL\"
+          " \
+            --msg-filter 'sed "s/kinfey/tarrywang/g"' \
+            --tag-name-filter cat -- --all
+
+          echo "=== verify clean (no kinfey on any local branch) ==="
+          for b in $(git for-each-ref --format='%(refname:short)' refs/heads); do
+            if git log "$b" --format='%an|%cn|%B' | grep -i kinfey; then
+              echo "ERROR: kinfey still present on $b"; exit 1
+            fi
+          done
+          echo "CLEAN"
+          git log --all --format='%an <%ae>' | sort | uniq -c | grep -vi 'refs/original' || true
+
+          # Push the cleaned heads + tags to the target repo, force (history is rewritten).
+          git remote add target "https://x-access-token:${SYNC_TOKEN}@${TARGET}"
+          git push --force --all target
+          git push --force --tags target
+
+          echo ">>> Synced clean history to github-sdk."
