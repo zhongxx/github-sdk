@@ -36,8 +36,8 @@ SOURCE_LIST_PATH = "Lab-01-Tech-Insights/input/api/rss_list.json"
 SIGNALS_DIR = "Lab-01-Tech-Insights/output/signals"
 OUTPUT_DIR = "Lab-01-Tech-Insights/output"
 TIME_WINDOW_HOURS = 24
-TOP_K = 12
-MAX_ITEMS_PER_SOURCE = 25
+TOP_K = 6
+MAX_ITEMS_PER_SOURCE = 3
 TIMEOUT_SECONDS = 15
 MAX_CHARS = 200000
 

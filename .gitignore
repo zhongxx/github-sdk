@@ -36,5 +36,14 @@ pnpm-debug.log*
 Thumbs.db
 
 # Generated lab outputs
-Lab-01-Tech-Insights/output/
+Lab-01-Tech-Insights/output/*
+!Lab-01-Tech-Insights/output/raw_signals.json
+!Lab-01-Tech-Insights/output/clusters/
+Lab-01-Tech-Insights/output/clusters/*
+!Lab-01-Tech-Insights/output/clusters/hotspots.json
+!Lab-01-Tech-Insights/output/insights/
+Lab-01-Tech-Insights/output/insights/*
+!Lab-01-Tech-Insights/output/insights/insights.json
+!Lab-01-Tech-Insights/output/report.md
+Lab-01-Tech-Insights/output/signals/
 Lab-03-GitHub-Copilot/output/

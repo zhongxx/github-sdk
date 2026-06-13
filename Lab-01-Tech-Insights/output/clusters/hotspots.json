@@ -1,0 +1,275 @@
+{
+  "mode": "llm",
+  "top_k": 6,
+  "hotspots": [
+    {
+      "hotspot_id": "H01",
+      "title": "充电基础设施竞争转向部署速度、功率密度与可靠性",
+      "summary": "过去 24 小时，多家厂商同时推进家充自动化、超快充出海、可折叠站点部署与连接点可靠性工程，说明补能体验正在成为下一轮电动车竞争焦点。",
+      "category": "trend",
+      "overall_heat_score": 92,
+      "coverage": {
+        "source_count": 4,
+        "companies": [
+          "Xiaomi",
+          "BYD",
+          "Tesla"
+        ],
+        "platforms": [
+          "carnewschina",
+          "thedriven",
+          "chargedevs"
+        ]
+      },
+      "should_chase": "yes",
+      "chase_rationale": [
+        "覆盖家充、公共快充和运维可靠性三层栈",
+        "既有中国厂商出海，也有欧美网络快速铺设信号"
+      ],
+      "samples": [
+        {
+          "platform": "carnewschina",
+          "title": "Xiaomi unveils home charging robotic arm, targeting Q4 2026 launch",
+          "url": "https://carnewschina.com/2026/06/13/xiaomi-unveils-home-charging-robotic-arm-targeting-q4-2026-launch/",
+          "published_at": "2026-06-13T04:11:03Z",
+          "company": "Xiaomi",
+          "signal_level": "S"
+        },
+        {
+          "platform": "thedriven",
+          "title": "BYD deploys first 1,500 kW Flash Charger outside of China",
+          "url": "https://thedriven.io/2026/06/13/byd-deploys-first-1500-kw-flash-charger-outside-of-china/",
+          "published_at": "2026-06-13T03:29:12Z",
+          "company": "BYD",
+          "signal_level": "B"
+        },
+        {
+          "platform": "thedriven",
+          "title": "Tesla’s first foldable Superchargers heads to Europe, for more rapid deployment",
+          "url": "https://thedriven.io/2026/06/13/teslas-first-foldable-superchargers-heads-to-europe-for-more-rapid-deployment/",
+          "published_at": "2026-06-13T02:43:55Z",
+          "company": "Tesla",
+          "signal_level": "B"
+        },
+        {
+          "platform": "chargedevs",
+          "title": "Engineering the connection point for long-term EV charging reliability",
+          "url": "https://chargedevs.com/features/engineering-the-connection-point-for-long-term-ev-charging-reliability/",
+          "published_at": "2026-06-13T08:14:29Z",
+          "company": null,
+          "signal_level": "B"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "H02",
+      "title": "全球 OEM 在多价位和多车型段同时加快电动车新品节奏",
+      "summary": "从入门家用车到皮卡、性能车和大型豪华车，多家 OEM 在同一时间窗口推进新车上市、价格策略和区域准入，竞争面从单一爆款转向组合拳。",
+      "category": "trend",
+      "overall_heat_score": 89,
+      "coverage": {
+        "source_count": 5,
+        "companies": [
+          "Toyota",
+          "Chevrolet",
+          "Rivian",
+          "Porsche",
+          "BMW"
+        ],
+        "platforms": [
+          "electrek",
+          "insideevs",
+          "thedriven",
+          "theverge-transport"
+        ]
+      },
+      "should_chase": "yes",
+      "chase_rationale": [
+        "涉及主流、皮卡、性能和豪华多细分市场",
+        "价格与上市节奏变化会直接影响竞品排兵布阵"
+      ],
+      "samples": [
+        {
+          "platform": "electrek",
+          "title": "The Chevy Equinox EV is now way more expensive to lease, but the Bolt is a bit cheaper",
+          "url": "https://electrek.co/2026/06/13/the-chevy-equinox-ev-is-now-way-more-expensive-to-lease-but-the-bolt-is-a-bit-cheaper/",
+          "published_at": "2026-06-13T06:29:24Z",
+          "company": "Chevrolet",
+          "signal_level": "A"
+        },
+        {
+          "platform": "insideevs",
+          "title": "The Rivian R2 Is Finally Here. The CEO Just Shared When To Expect More Models",
+          "url": "https://insideevs.com/news/763319/rivian-r2-debut-more-models/",
+          "published_at": "2026-06-13T04:49:00Z",
+          "company": "Rivian",
+          "signal_level": "A"
+        },
+        {
+          "platform": "electrek",
+          "title": "Toyota opens orders for its first body-on-frame EV pickup, starting at under $60,000",
+          "url": "https://electrek.co/2026/06/12/toyota-opens-orders-for-its-first-body-on-frame-ev-pickup-starting-at-under-60000/",
+          "published_at": "2026-06-12T15:28:13Z",
+          "company": "Toyota",
+          "signal_level": "A"
+        },
+        {
+          "platform": "thedriven",
+          "title": "Porsche’s biggest electric car, with 3.5 tonne towing capacity, approved for sale in Australia",
+          "url": "https://thedriven.io/2026/06/13/porsches-biggest-electric-car-with-3-5-tonne-towing-capacity-approved-for-sale-in-australia/",
+          "published_at": "2026-06-13T05:25:39Z",
+          "company": "Porsche",
+          "signal_level": "B"
+        },
+        {
+          "platform": "theverge-transport",
+          "title": "BMW’s Neue Klasse M concept brings next-gen EV tech to motorsports",
+          "url": "https://www.theverge.com/news/687286/bmw-neue-klasse-m-concept-next-gen-ev-tech-motorsports",
+          "published_at": "2026-06-13T02:47:13Z",
+          "company": "BMW",
+          "signal_level": "B"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "H03",
+      "title": "中国重卡电动化目标进一步上调至 2030 年 40% 渗透率",
+      "summary": "中国针对新能源重卡给出新的中长期渗透率目标，这会把商用车平台、补能基础设施与电池配套拉入更明确的政策节奏。",
+      "category": "single",
+      "overall_heat_score": 84,
+      "coverage": {
+        "source_count": 1,
+        "companies": [],
+        "platforms": [
+          "cnevpost"
+        ]
+      },
+      "should_chase": "yes",
+      "chase_rationale": [
+        "政策目标会牵引商用车产品定义与基础设施投资"
+      ],
+      "samples": [
+        {
+          "platform": "cnevpost",
+          "title": "China targets 40% penetration for new-energy heavy trucks by 2030",
+          "url": "https://cnevpost.com/2026/06/12/china-targets-40-penetration-for-new-energy-heavy-trucks-by-2030/",
+          "published_at": "2026-06-12T20:05:17Z",
+          "company": null,
+          "signal_level": "S"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "H04",
+      "title": "吉利继续推进资产整合，强化主上市平台",
+      "summary": "吉利延续资产整合节奏，意味着资本平台、品牌资产与研发资源有望进一步集中，对中国车企集团化竞争有直接意义。",
+      "category": "single",
+      "overall_heat_score": 82,
+      "coverage": {
+        "source_count": 1,
+        "companies": [
+          "Geely"
+        ],
+        "platforms": [
+          "cnevpost"
+        ]
+      },
+      "should_chase": "yes",
+      "chase_rationale": [
+        "集团层重组通常先于产品和渠道战略变化"
+      ],
+      "samples": [
+        {
+          "platform": "cnevpost",
+          "title": "Geely to continue asset consolidation to strengthen main listed platform, chairman says",
+          "url": "https://cnevpost.com/2026/06/13/geely-to-continue-asset-consolidation-to-strengthen-main-listed-platform-chairman-says/",
+          "published_at": "2026-06-13T08:22:48Z",
+          "company": "Geely",
+          "signal_level": "S"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "H05",
+      "title": "BYD Dolphin G DM-i 以欧洲定价落地，出海组合继续扩张",
+      "summary": "BYD 在欧洲市场披露 Dolphin G DM-i 定价并确认交付节奏，说明其出海策略继续从单一车型试水转向体系化铺货。",
+      "category": "single",
+      "overall_heat_score": 79,
+      "coverage": {
+        "source_count": 1,
+        "companies": [
+          "BYD"
+        ],
+        "platforms": [
+          "carnewschina"
+        ]
+      },
+      "should_chase": "yes",
+      "chase_rationale": [
+        "直接影响欧洲价格带竞争与中国品牌出海观察"
+      ],
+      "samples": [
+        {
+          "platform": "carnewschina",
+          "title": "BYD Dolphin G DM-i revealed prices for Europe with deliveries set for autumn",
+          "url": "https://carnewschina.com/2026/06/13/byd-dolphin-g-dm-i-revealed-prices-for-europe-with-deliveries-set-for-autumn/",
+          "published_at": "2026-06-13T00:24:02Z",
+          "company": "BYD",
+          "signal_level": "S"
+        }
+      ]
+    },
+    {
+      "hotspot_id": "H06",
+      "title": "电池材料与监测栈出现面向量产的新进展",
+      "summary": "固态电解质能量密度、安全验证与 BESS 级单芯监测同日出现新样本，显示电池性能提升正在和可观测性、工程可用性同步推进。",
+      "category": "trend",
+      "overall_heat_score": 76,
+      "coverage": {
+        "source_count": 2,
+        "companies": [
+          "SOLiTHOR",
+          "Dukosi",
+          "A123",
+          "Nuvation",
+          "BMW"
+        ],
+        "platforms": [
+          "chargedevs",
+          "theverge-transport"
+        ]
+      },
+      "should_chase": "yes",
+      "chase_rationale": [
+        "兼顾材料突破与系统监测，可影响下一代电池路线评估",
+        "虽样本量不大，但工程指向明确"
+      ],
+      "samples": [
+        {
+          "platform": "chargedevs",
+          "title": "SOLiTHOR’s solid-state electrolyte hits 465 Wh/kg at stack level, passes nail penetration test",
+          "url": "https://chargedevs.com/newswire/solithors-solid-state-electrolyte-hits-465-wh-kg-at-stack-level-passes-nail-penetration-test/",
+          "published_at": "2026-06-12T16:18:41Z",
+          "company": "SOLiTHOR",
+          "signal_level": "B"
+        },
+        {
+          "platform": "chargedevs",
+          "title": "Dukosi, A123 and Nuvation combine chip-on-cell contactless monitoring with LFP cells in BESS proof of concept",
+          "url": "https://chargedevs.com/newswire/dukosi-a123-and-nuvation-combine-chip-on-cell-contactless-monitoring-with-lfp-cells-in-bess-proof-of-concept/",
+          "published_at": "2026-06-13T01:00:58Z",
+          "company": "Dukosi",
+          "signal_level": "B"
+        },
+        {
+          "platform": "theverge-transport",
+          "title": "BMW’s Neue Klasse M concept brings next-gen EV tech to motorsports",
+          "url": "https://www.theverge.com/news/687286/bmw-neue-klasse-m-concept-next-gen-ev-tech-motorsports",
+          "published_at": "2026-06-13T02:47:13Z",
+          "company": "BMW",
+          "signal_level": "B"
+        }
+      ]
+    }
+  ]
+}

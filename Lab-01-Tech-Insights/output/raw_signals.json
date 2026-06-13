@@ -1,0 +1,620 @@
+{
+  "window": {
+    "time_window_hours": 24,
+    "cutoff": "2026-06-12T09:20:59.464479Z",
+    "generated_at": "2026-06-13T09:20:59.464479Z"
+  },
+  "sources": [
+    {
+      "platform": "cnevpost",
+      "platform_key": "cnevpost",
+      "source_type": "rss",
+      "url": "https://cnevpost.com/feed/",
+      "file": "Lab-01-Tech-Insights/output/signals/cnevpost.xml",
+      "parsed": 3,
+      "kept": 3,
+      "parse_error": null,
+      "company": null,
+      "signal_level": "S",
+      "tracks": [
+        "china_ev"
+      ]
+    },
+    {
+      "platform": "carnewschina",
+      "platform_key": "carnewschina",
+      "source_type": "rss",
+      "url": "https://carnewschina.com/feed/",
+      "file": "Lab-01-Tech-Insights/output/signals/carnewschina.xml",
+      "parsed": 3,
+      "kept": 2,
+      "parse_error": null,
+      "company": null,
+      "signal_level": "S",
+      "tracks": [
+        "china_ev"
+      ]
+    },
+    {
+      "platform": "pandaily",
+      "platform_key": "pandaily",
+      "source_type": "rss",
+      "url": "https://pandaily.com/feed/",
+      "file": "Lab-01-Tech-Insights/output/signals/pandaily.xml",
+      "parsed": 3,
+      "kept": 3,
+      "parse_error": null,
+      "company": null,
+      "signal_level": "A",
+      "tracks": [
+        "china_ev"
+      ]
+    },
+    {
+      "platform": "electrek",
+      "platform_key": "electrek",
+      "source_type": "rss",
+      "url": "https://electrek.co/feed/",
+      "file": "Lab-01-Tech-Insights/output/signals/electrek.xml",
+      "parsed": 3,
+      "kept": 3,
+      "parse_error": null,
+      "company": null,
+      "signal_level": "A",
+      "tracks": [
+        "global_ev"
+      ]
+    },
+    {
+      "platform": "insideevs",
+      "platform_key": "insideevs",
+      "source_type": "rss",
+      "url": "https://insideevs.com/rss/articles/all/",
+      "file": "Lab-01-Tech-Insights/output/signals/insideevs.xml",
+      "parsed": 3,
+      "kept": 3,
+      "parse_error": null,
+      "company": null,
+      "signal_level": "A",
+      "tracks": [
+        "global_ev"
+      ]
+    },
+    {
+      "platform": "cleantechnica",
+      "platform_key": "cleantechnica",
+      "source_type": "rss",
+      "url": "https://cleantechnica.com/feed/",
+      "file": "Lab-01-Tech-Insights/output/signals/cleantechnica.xml",
+      "parsed": 3,
+      "kept": 3,
+      "parse_error": null,
+      "company": null,
+      "signal_level": "A",
+      "tracks": [
+        "global_ev"
+      ]
+    },
+    {
+      "platform": "thedriven",
+      "platform_key": "thedriven",
+      "source_type": "rss",
+      "url": "https://thedriven.io/feed/",
+      "file": "Lab-01-Tech-Insights/output/signals/thedriven.xml",
+      "parsed": 3,
+      "kept": 3,
+      "parse_error": null,
+      "company": null,
+      "signal_level": "B",
+      "tracks": [
+        "global_ev"
+      ]
+    },
+    {
+      "platform": "theverge-transport",
+      "platform_key": "theverge-transport",
+      "source_type": "rss",
+      "url": "https://www.theverge.com/rss/transportation/index.xml",
+      "file": "Lab-01-Tech-Insights/output/signals/theverge-transport.xml",
+      "parsed": 3,
+      "kept": 1,
+      "parse_error": null,
+      "company": null,
+      "signal_level": "B",
+      "tracks": [
+        "auto_news"
+      ]
+    },
+    {
+      "platform": "techcrunch-transport",
+      "platform_key": "techcrunch-transport",
+      "source_type": "rss",
+      "url": "https://techcrunch.com/category/transportation/feed/",
+      "file": "Lab-01-Tech-Insights/output/signals/techcrunch-transport.xml",
+      "parsed": 3,
+      "kept": 3,
+      "parse_error": null,
+      "company": null,
+      "signal_level": "B",
+      "tracks": [
+        "auto_news"
+      ]
+    },
+    {
+      "platform": "chargedevs",
+      "platform_key": "chargedevs",
+      "source_type": "rss",
+      "url": "https://chargedevs.com/feed/",
+      "file": "Lab-01-Tech-Insights/output/signals/chargedevs.xml",
+      "parsed": 3,
+      "kept": 3,
+      "parse_error": null,
+      "company": null,
+      "signal_level": "B",
+      "tracks": [
+        "global_ev"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "platform": "cnevpost",
+      "platform_key": "cnevpost",
+      "source_type": "rss",
+      "title": "China targets 40% penetration for new-energy heavy trucks by 2030",
+      "title_norm": "china targets 40 penetration for new energy heavy trucks by 2030",
+      "url": "https://cnevpost.com/2026/06/13/china-targets-40-penetration-new-energy-heavy-trucks-2030/",
+      "published_at": "2026-06-13T08:31:20Z",
+      "summary": "<p><img alt=\"An autonomous heavy-duty truck on display at the Beijing Auto Show in April 2026.\" src…",
+      "company": null,
+      "signal_level": "S",
+      "include_keywords": [],
+      "tracks": [
+        "china_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "cnevpost",
+      "platform_key": "cnevpost",
+      "source_type": "rss",
+      "title": "Geely to continue asset consolidation to strengthen main listed platform, chairman says",
+      "title_norm": "geely to continue asset consolidation to strengthen main listed platform chairman says",
+      "url": "https://cnevpost.com/2026/06/13/geely-asset-consolidation-strengthen-main-listed-platform/",
+      "published_at": "2026-06-13T05:05:37Z",
+      "summary": "<p><img alt=\"\" src=\"https://cnevpost.com/wp-content/uploads/2026/06/2026061304544140.jpg\" style=\"he…",
+      "company": null,
+      "signal_level": "S",
+      "include_keywords": [],
+      "tracks": [
+        "china_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "cnevpost",
+      "platform_key": "cnevpost",
+      "source_type": "rss",
+      "title": "BYD energy storage powers Hungary's largest battery project online",
+      "title_norm": "byd energy storage powers hungary s largest battery project online",
+      "url": "https://cnevpost.com/2026/06/13/byd-energy-storage-powers-hungary-largest-battery-project-online/",
+      "published_at": "2026-06-13T03:54:39Z",
+      "summary": "<p><img alt=\"\" src=\"https://cnevpost.com/wp-content/uploads/2026/06/2026061303503482.jpg\" style=\"he…",
+      "company": null,
+      "signal_level": "S",
+      "include_keywords": [],
+      "tracks": [
+        "china_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "carnewschina",
+      "platform_key": "carnewschina",
+      "source_type": "rss",
+      "title": "Xiaomi unveils home charging robotic arm, targeting Q4 2026 launch",
+      "title_norm": "xiaomi unveils home charging robotic arm targeting q4 2026 launch",
+      "url": "https://carnewschina.com/2026/06/13/xiaomi-unveils-home-charging-robotic-arm-targeting-q4-2026-launch/",
+      "published_at": "2026-06-12T23:46:31Z",
+      "summary": "<p>Xiaomi to launch home charging robotic arm in Q4 2026.</p> <p>The post <a href=\"https://carnewsc…",
+      "company": null,
+      "signal_level": "S",
+      "include_keywords": [],
+      "tracks": [
+        "china_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "cleantechnica",
+      "platform_key": "cleantechnica",
+      "source_type": "rss",
+      "title": "Most Efficient Solar Module in the World — New Record",
+      "title_norm": "most efficient solar module in the world new record",
+      "url": "https://cleantechnica.com/2026/06/12/most-efficient-solar-module-in-the-world-new-record/",
+      "published_at": "2026-06-13T03:57:48Z",
+      "summary": "<p>The Fraunhofer Institute for Solar Energy Systems (ISE) is no stranger to solar power records, a…",
+      "company": null,
+      "signal_level": "A",
+      "include_keywords": [],
+      "tracks": [
+        "global_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "cleantechnica",
+      "platform_key": "cleantechnica",
+      "source_type": "rss",
+      "title": "UK Sprints Forward With Grid Connections for 700 Clean Energy Projects",
+      "title_norm": "uk sprints forward with grid connections for 700 clean energy projects",
+      "url": "https://cleantechnica.com/2026/06/12/uk-sprints-forward-with-grid-connections-for-700-clean-energy-projects/",
+      "published_at": "2026-06-13T03:55:43Z",
+      "summary": "<p>While the US is languishing thanks to permitting hell, the UK is looking to speed up its clean e…",
+      "company": null,
+      "signal_level": "A",
+      "include_keywords": [],
+      "tracks": [
+        "global_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "cleantechnica",
+      "platform_key": "cleantechnica",
+      "source_type": "rss",
+      "title": "New Method Turns Ocean Water into Drinking Water, without Waste",
+      "title_norm": "new method turns ocean water into drinking water without waste",
+      "url": "https://cleantechnica.com/2026/06/12/new-method-turns-ocean-water-into-drinking-water-without-waste/",
+      "published_at": "2026-06-13T03:54:21Z",
+      "summary": "<p>The energy-efficient desalination system produces fresh water without chemical additives and tra…",
+      "company": null,
+      "signal_level": "A",
+      "include_keywords": [],
+      "tracks": [
+        "global_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "pandaily",
+      "platform_key": "pandaily",
+      "source_type": "rss",
+      "title": "Kimi and State-Owned Bank Launch World's First AI-Native Credit Card",
+      "title_norm": "kimi and state owned bank launch world s first ai native credit card",
+      "url": "https://pandaily.com/kimi-ai-native-credit-card-moonshot-ai-jun2026",
+      "published_at": "2026-06-13T01:56:46Z",
+      "summary": "Moonshot AI's Kimi has partnered with a major state-owned bank to launch the world's first AI-nativ…",
+      "company": null,
+      "signal_level": "A",
+      "include_keywords": [],
+      "tracks": [
+        "china_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "pandaily",
+      "platform_key": "pandaily",
+      "source_type": "rss",
+      "title": "HDC 2026 Showcases HarmonyOS 7's Five-Dimensional Upgrade and Surging Ecosystem Innovation",
+      "title_norm": "hdc 2026 showcases harmonyos 7 s five dimensional upgrade and surging ecosystem innovation",
+      "url": "https://pandaily.com/hdc-2026-harmonyos-7-ecosystem-upgrades-huawei-jun2026",
+      "published_at": "2026-06-13T01:56:30Z",
+      "summary": "Huawei's HDC 2026 highlighted HarmonyOS 7's upgrades across spatial computing, intelligence, securi…",
+      "company": null,
+      "signal_level": "A",
+      "include_keywords": [],
+      "tracks": [
+        "china_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "pandaily",
+      "platform_key": "pandaily",
+      "source_type": "rss",
+      "title": "Huawei's HarmonyOS 7 Developer Beta Debuts With Full Agent Architecture Overhaul",
+      "title_norm": "huawei s harmonyos 7 developer beta debuts with full agent architecture overhaul",
+      "url": "https://pandaily.com/huawei-harmonyos-7-developer-beta-agent-architecture-jun2026",
+      "published_at": "2026-06-13T01:56:23Z",
+      "summary": "Huawei unveiled HarmonyOS 7 Developer Beta at HDC 2026, marking a strategic shift toward an Agent-f…",
+      "company": null,
+      "signal_level": "A",
+      "include_keywords": [],
+      "tracks": [
+        "china_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "carnewschina",
+      "platform_key": "carnewschina",
+      "source_type": "rss",
+      "title": "BYD Dolphin G DM-i revealed prices for Europe with deliveries set for autumn",
+      "title_norm": "byd dolphin g dm i revealed prices for europe with deliveries set for autumn",
+      "url": "https://carnewschina.com/2026/06/12/byd-dolphin-g-dm-i-revealed-prices-for-europe-with-deliveries-set-for-autumn/",
+      "published_at": "2026-06-12T11:16:50Z",
+      "summary": "<p>The BYD Dolphin G DM-i hatchback, designed for Europe, revealed prices as its full market rollou…",
+      "company": null,
+      "signal_level": "S",
+      "include_keywords": [],
+      "tracks": [
+        "china_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "electrek",
+      "platform_key": "electrek",
+      "source_type": "rss",
+      "title": "Shell could walk away from offshore wind in $1 billion+ sell-off",
+      "title_norm": "shell could walk away from offshore wind in 1 billion sell off",
+      "url": "https://electrek.co/2026/06/12/shell-could-walk-away-from-offshore-wind-in-1-billion-sell-off/",
+      "published_at": "2026-06-12T22:03:49Z",
+      "summary": "<div class=\"feat-image\"><img src=\"https://electrek.co/wp-content/uploads/sites/3/2026/06/floating-l…",
+      "company": null,
+      "signal_level": "A",
+      "include_keywords": [],
+      "tracks": [
+        "global_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "electrek",
+      "platform_key": "electrek",
+      "source_type": "rss",
+      "title": "The Chevy Equinox EV is now way more expensive to lease, but the Bolt is a bit cheaper",
+      "title_norm": "the chevy equinox ev is now way more expensive to lease but the bolt is a bit cheaper",
+      "url": "https://electrek.co/2026/06/12/chevy-equinox-ev-more-expensive-lease-bolt-cheaper/",
+      "published_at": "2026-06-12T22:02:57Z",
+      "summary": "<div class=\"feat-image\"><img src=\"https://electrek.co/wp-content/uploads/sites/3/2026/06/Chevy-Equi…",
+      "company": null,
+      "signal_level": "A",
+      "include_keywords": [],
+      "tracks": [
+        "global_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "insideevs",
+      "platform_key": "insideevs",
+      "source_type": "rss",
+      "title": "The Rivian R2 Is Finally Here. The CEO Just Shared When To Expect More Models",
+      "title_norm": "the rivian r2 is finally here the ceo just shared when to expect more models",
+      "url": "https://insideevs.com/news/798608/rivian-r2-r3-r2t-timeline/",
+      "published_at": "2026-06-12T21:42:12Z",
+      "summary": "CEO RJ Scaringe hinted about how far around the corner R3 is and what could come next.",
+      "company": null,
+      "signal_level": "A",
+      "include_keywords": [],
+      "tracks": [
+        "global_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "electrek",
+      "platform_key": "electrek",
+      "source_type": "rss",
+      "title": "Toyota opens orders for its first body-on-frame EV pickup, starting at under $60,000",
+      "title_norm": "toyota opens orders for its first body on frame ev pickup starting at under 60 000",
+      "url": "https://electrek.co/2026/06/12/toyota-opens-orders-first-body-on-frame-ev-under-60000/",
+      "published_at": "2026-06-12T21:00:00Z",
+      "summary": "<div class=\"feat-image\"><img src=\"https://electrek.co/wp-content/uploads/sites/3/2026/06/Toyota-Hil…",
+      "company": null,
+      "signal_level": "A",
+      "include_keywords": [],
+      "tracks": [
+        "global_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "insideevs",
+      "platform_key": "insideevs",
+      "source_type": "rss",
+      "title": "'I Want To Own It': What Engineering Explained's Jason Fenske Thought Of The Rivian R2",
+      "title_norm": "i want to own it what engineering explained s jason fenske thought of the rivian r2",
+      "url": "https://insideevs.com/features/798610/rivian-r2-drive-impressions-jason-fenske-2026/",
+      "published_at": "2026-06-12T17:59:33Z",
+      "summary": "On today's Plugged-In Podcast, we talk Rivian R2 driving impressions with Jason Fenske, of the YouT…",
+      "company": null,
+      "signal_level": "A",
+      "include_keywords": [],
+      "tracks": [
+        "global_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "thedriven",
+      "platform_key": "thedriven",
+      "source_type": "rss",
+      "title": "Porsche’s biggest electric car, with 3.5 tonne towing capacity, approved for sale in Australia",
+      "title_norm": "porsche s biggest electric car with 3 5 tonne towing capacity approved for sale in australia",
+      "url": "https://thedriven.io/2026/06/13/porsches-biggest-electric-car-with-3-5-tonne-towing-capacity-approved-for-sale-in-australia/",
+      "published_at": "2026-06-13T01:26:03Z",
+      "summary": "<a href=\"https://thedriven.io/2026/06/13/porsches-biggest-electric-car-with-3-5-tonne-towing-capaci…",
+      "company": null,
+      "signal_level": "B",
+      "include_keywords": [],
+      "tracks": [
+        "global_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "thedriven",
+      "platform_key": "thedriven",
+      "source_type": "rss",
+      "title": "BYD deploys first 1,500 kW Flash Charger outside of China",
+      "title_norm": "byd deploys first 1 500 kw flash charger outside of china",
+      "url": "https://thedriven.io/2026/06/13/byd-deploys-first-1500-kw-flash-charger-outside-of-china/",
+      "published_at": "2026-06-13T01:24:40Z",
+      "summary": "<a href=\"https://thedriven.io/2026/06/13/byd-deploys-first-1500-kw-flash-charger-outside-of-china/\"…",
+      "company": null,
+      "signal_level": "B",
+      "include_keywords": [],
+      "tracks": [
+        "global_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "thedriven",
+      "platform_key": "thedriven",
+      "source_type": "rss",
+      "title": "Tesla’s first foldable Superchargers heads to Europe, for more rapid deployment",
+      "title_norm": "tesla s first foldable superchargers heads to europe for more rapid deployment",
+      "url": "https://thedriven.io/2026/06/13/teslas-first-foldable-superchargers-heads-to-europe-for-more-rapid-deployment/",
+      "published_at": "2026-06-13T01:19:29Z",
+      "summary": "<a href=\"https://thedriven.io/2026/06/13/teslas-first-foldable-superchargers-heads-to-europe-for-mo…",
+      "company": null,
+      "signal_level": "B",
+      "include_keywords": [],
+      "tracks": [
+        "global_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "insideevs",
+      "platform_key": "insideevs",
+      "source_type": "rss",
+      "title": "The Electric BMW M3 Is Coming. Here's What It Might Look Like",
+      "title_norm": "the electric bmw m3 is coming here s what it might look like",
+      "url": "https://insideevs.com/news/798551/bmw-m3-ev-concept-reveal/",
+      "published_at": "2026-06-12T13:00:00Z",
+      "summary": "It looks like a close-to-production preview of the production BMW i3 M, but the specs are still und…",
+      "company": null,
+      "signal_level": "A",
+      "include_keywords": [],
+      "tracks": [
+        "global_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "techcrunch-transport",
+      "platform_key": "techcrunch-transport",
+      "source_type": "rss",
+      "title": "SpaceX IPO: Live updates on everything you need to know",
+      "title_norm": "spacex ipo live updates on everything you need to know",
+      "url": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
+      "published_at": "2026-06-12T23:15:14Z",
+      "summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're her…",
+      "company": null,
+      "signal_level": "B",
+      "include_keywords": [],
+      "tracks": [
+        "auto_news"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "techcrunch-transport",
+      "platform_key": "techcrunch-transport",
+      "source_type": "rss",
+      "title": "SpaceX IPO closes up 19% and delivers the world’s first trillionaire",
+      "title_norm": "spacex ipo closes up 19 and delivers the world s first trillionaire",
+      "url": "https://techcrunch.com/2026/06/12/spacex-ipo-closes-up-19-and-delivers-the-worlds-first-trillionaire/",
+      "published_at": "2026-06-12T20:20:00Z",
+      "summary": "The company made its heavily anticipated debut on Friday, trading higher than its initial $135 IPO…",
+      "company": null,
+      "signal_level": "B",
+      "include_keywords": [],
+      "tracks": [
+        "auto_news"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "techcrunch-transport",
+      "platform_key": "techcrunch-transport",
+      "source_type": "rss",
+      "title": "The SpaceX IPO has finally arrived — here’s what TechCrunch editors think so far",
+      "title_norm": "the spacex ipo has finally arrived here s what techcrunch editors think so far",
+      "url": "https://techcrunch.com/podcast/the-spacex-ipo-has-finally-arrived-heres-what-techcrunch-editors-think-so-far/",
+      "published_at": "2026-06-12T20:08:57Z",
+      "summary": "The&#160;biggest IPO in history&#160;dropped this morning on the Nasdaq&#160;—&#160;a debut&#160;so…",
+      "company": null,
+      "signal_level": "B",
+      "include_keywords": [],
+      "tracks": [
+        "auto_news"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "chargedevs",
+      "platform_key": "chargedevs",
+      "source_type": "rss",
+      "title": "Engineering the connection point for long-term EV charging reliability",
+      "title_norm": "engineering the connection point for long term ev charging reliability",
+      "url": "https://chargedevs.com/whitepapers/engineering-the-connection-point-for-long-term-ev-charging-reliability/",
+      "published_at": "2026-06-12T15:44:02Z",
+      "summary": "<a href=\"https://chargedevs.com/whitepapers/engineering-the-connection-point-for-long-term-ev-charg…",
+      "company": null,
+      "signal_level": "B",
+      "include_keywords": [],
+      "tracks": [
+        "global_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "chargedevs",
+      "platform_key": "chargedevs",
+      "source_type": "rss",
+      "title": "Dukosi, A123 and Nuvation combine chip-on-cell contactless monitoring with LFP cells in BESS proof of concept",
+      "title_norm": "dukosi a123 and nuvation combine chip on cell contactless monitoring with lfp cells in bess proof of concept",
+      "url": "https://chargedevs.com/newswire/dukosi-a123-and-nuvation-combine-chip-on-cell-contactless-monitoring-with-lfp-cells-in-bess-proof-of-concept/",
+      "published_at": "2026-06-12T15:42:16Z",
+      "summary": "<a href=\"https://chargedevs.com/newswire/dukosi-a123-and-nuvation-combine-chip-on-cell-contactless-…",
+      "company": null,
+      "signal_level": "B",
+      "include_keywords": [],
+      "tracks": [
+        "global_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "chargedevs",
+      "platform_key": "chargedevs",
+      "source_type": "rss",
+      "title": "SOLiTHOR’s solid-state electrolyte hits 465 Wh/kg at stack level, passes nail penetration test",
+      "title_norm": "solithor s solid state electrolyte hits 465 wh kg at stack level passes nail penetration test",
+      "url": "https://chargedevs.com/newswire/solithors-solid-state-electrolyte-hits-465-wh-kg-at-stack-level-passes-nail-penetration-test/",
+      "published_at": "2026-06-12T15:36:23Z",
+      "summary": "<a href=\"https://chargedevs.com/newswire/solithors-solid-state-electrolyte-hits-465-wh-kg-at-stack-…",
+      "company": null,
+      "signal_level": "B",
+      "include_keywords": [],
+      "tracks": [
+        "global_ev"
+      ],
+      "language": "en"
+    },
+    {
+      "platform": "theverge-transport",
+      "platform_key": "theverge-transport",
+      "source_type": "rss",
+      "title": "BMW’s Neue Klasse M concept brings next-gen EV tech to motorsports",
+      "title_norm": "bmw s neue klasse m concept brings next gen ev tech to motorsports",
+      "url": "https://www.theverge.com/transportation/948635/bmw-neue-klasse-m-concept-motorsports-ev",
+      "published_at": "2026-06-12T13:00:00Z",
+      "summary": "Just in time for Le Mans, BMW is pulling the cover off its new M performance concept built on the B…",
+      "company": null,
+      "signal_level": "B",
+      "include_keywords": [],
+      "tracks": [
+        "auto_news"
+      ],
+      "language": "en"
+    }
+  ]
+}

@@ -45,5 +45,12 @@ Thumbs.db
 *.log
 
 # Workflow outputs
-output/
-Lab-01-Tech-Insights/output/
+output/*
+!output/raw_signals.json
+!output/clusters/
+output/clusters/*
+!output/clusters/hotspots.json
+!output/insights/
+output/insights/*
+!output/insights/insights.json
+!output/report.md
