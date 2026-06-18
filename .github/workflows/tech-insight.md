@@ -9,6 +9,7 @@ tools:
   bash: [":*"]
   edit:
 engine: copilot
+model: claude-sonnet-4.5
 timeout-minutes: 45
 steps:
   - name: Set up Python
